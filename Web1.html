@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>My Webpage 1</title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style>
+        ul li {
+          color:  teal;
+        }
+
+        ol > li {
+          color: orange;
+          padding: 5px;
+          }
+
+          .grid {
+            background-color: green;
+            display: grid;
+            padding: 20px;
+            margin: 10px;
+            grid-column-gap: 20px;
+            grid-row-gap: 10px;
+            grid-template-columns: 200px 200px auto;
+          }
+
+          .grid-item {
+            background-color: white;
+            font-size: 20px;
+            padding: 20px;
+            text-align: center;
+          }
+
+          h1 {
+            font-style: italic;
+            font-family: cursive;
+            color: teal;
+          }
+
+          .row > div {
+            padding: 20px;
+            background-color: yellow;
+            border: 2px solid black;
+          }
+
+          .container {
+            padding: 50px;
+            margin: auto;
+          }
+
+          .landing {
+            padding: 50px;
+            position: absolute;
+            left: 0;
+          }
+
+          .btn-group {
+            position: absolute;
+            padding: 10px;
+            right: 0;
+          }
+
+          .light-button {
+            background-color: white;
+          }
+
+        </style>
+    </head>
+    <body>
+        <h1>This is my first Webpage</h1>
+        <div>
+          <ol>
+            <li> Each page is a summary of what the first Harvard class taught</li>
+              <ul>
+                <li>This is a sublist so keep going</li>
+              </ul>
+            <li> Check out the tables below and then head back to the landing</li>
+          </ol>
+        </div>
+
+        <div class="grid">
+          <div class="grid-item">1</div>
+          <div class="grid-item">2</div>
+          <div class="grid-item">Does this get bigger/smaller?</div>
+          <div class="grid-item">4</div>
+          <div class="grid-item">5</div>
+          <div class="grid-item">Does this get bigger/smaller?</div>
+          <div class="grid-item">7</div>
+          <div class="grid-item">8</div>
+          <div class="grid-item">Does this get bigger/smaller?</div>
+          <div class="grid-item">10</div>
+          <div class="grid-item">11</div>
+          <div class="grid-item">Does this get bigger/smaller?</div>
+        </div>
+
+        <div class="container">
+        <div class="row">
+          <div class="col-3">
+              1. Does this auto adjust?
+          </div>
+          <div class="col-3">
+              2. Does this auto adjust?
+          </div>
+          <div class="col-3">
+              3. Does this auto adjust?
+          </div>
+          <div class="col-3">
+              4. Does this auto adjust?
+          </div>
+        </div>
+
+        <div class="container">
+        <div class="row">
+          <div class="col-3 col-sm-6">
+              1. How about this one?
+          </div>
+          <div class="col-3 col-md-6">
+              2.How about this one?
+          </div>
+          <div class="col-3 col-md-6">
+              3. How about this one?
+          </div>
+          <div class="col-3 col-md-6">
+              4. How about this one?
+          </div>
+        </div>
+
+        <div class="landing">
+          <a href="Hello.html">Back to Landing</a>
+        </div>
+
+     <div class="btn-group" role="group" aria-label="Basic example">
+        <button type="button" class="light-button">Light</button>
+        <button type="button" class="btn btn-secondary">Dark</button>
+    </div>
+    </body>
+</html>

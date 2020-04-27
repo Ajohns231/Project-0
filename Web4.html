@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>My Webpage 4</title>
+    </head>
+    <style>
+        input[type=text] {
+          background-color: blue;
+          color: white;
+          width: 160px;
+        }
+
+        input[type=number] {
+          background-color: purple;
+          color:white;
+        }
+
+        placeholder {
+          color: white;
+        }
+
+        h1 {
+          text-align: center;
+          color: teal
+        }
+
+        button{
+          width: auto;
+          height: 50px;
+          font-size: 16px;
+          background-color: white;
+        }
+
+        button:hover {
+          background-color: green;
+        }
+
+        a::before {
+          content: "Click here: ";
+          font-weight: bold;
+        }
+
+        p::selection {
+          color: red;
+          background-color: orange
+        }
+
+        @media print {
+          .screen-only {
+                display: none;
+              }
+            }
+
+        @media (max-width: 599px) {
+          body {
+            background-color: pink;
+              }
+            }
+
+        @media (min-width: 900px) {
+          body {
+            background-color: white;
+              }
+          }
+
+
+
+    </style>
+
+    <body>
+        <h1>This is my fourth Webpage</h1>
+        <div>
+            <ol>
+                <li> Thanks for taking the time go thru all of this answer
+                  these questions
+                </li>
+            </ol>
+      </div>
+
+      <div>
+          <form>
+            <input name="web4 input" type="text" placeholder="Can you read this?">
+            <input name="web4 input" type="number" placeholder="Age?">
+            <button>Click me!</button>
+            <input name="did button change" type="text" placeholder="Did the button color change?">
+          </form>
+      </div>
+
+      <div>
+          <p> Alright so you're doing a good job on seeing a couple of the things I'm learning,
+            now highlight a couple words in this sentence. Does the highlight change color?
+            <input name="yes" type="radio" yes>Yes <input name="no" type="radio" value="no">No
+          </p>
+      </div>
+
+      <div>
+          <p class="screen-only">
+            Thanks for checking that out, next you're going to try and press Command print
+            to get a preview of this page. Does this sentence pop up?
+            <input name="yes" type="radio" yes>Yes <input name="no" type="radio" no>No
+          </p>
+      </div>
+
+      <div>
+          <p> Cool so now that's answered I also gotta make sure the words move around
+            when the screen size changes. Try to drag the screen all the way to the left
+            and then all the way back and see what happens.
+          </p>
+      </div>
+
+      <div>
+          <a href="Hello.html">Back to landing</a>
+      <div>
+
+    </body>
+</html>
